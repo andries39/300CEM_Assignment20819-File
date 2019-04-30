@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">FamilyLocation</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Sign in</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string name="mapDoneBtn">Done</string>
+
+    <string name="nav_login">Login</string>
+    <string name="nav_enterRecord">Enter-Record</string>
+    <string name="nav_showRecord">Show-Record</string>
+    <string name="nav_confirmHome">Confirm-Back-Home</string>
+    <string name="nav_Logout">Logout</string>
+
+    <!-- TextView -->
+    <string name="txt_plzLogin">Please login!</string>
+    <string name="txt_welcome">Welcome!</string>
+    <string name="txt_findCurrentLocation">Find your current Location</string>
+    <string name="txt_submit">submit</string>
+    <string name="txt_saved">Saved</string>
+    <string name="txt_name">Name:</string>
+    <string name="txt_login">Login</string>
+    <string name="txt_email">Email</string>
+    <string name="txt_pwd">Password</string>
+    <string name="txt_view">View</string>
+
+
+    <!-- Toast -->
+    <string name="toast_Already">Already Login</string>
+    <string name="toast_AlreadyOut">Already Logout</string>
+    <string name="toast_Please">Please Login</string>
+    <string name="toast_Logout">Logged out</string>
+    <string name="toast_beacon">Can not find the beacon</string>
+    <string name="toast_submit">Submitted</string>
+
+    <string name="register_Title">Login Question</string>
+    <string name="register_Message">Do not have this account, do you want to register with this account and password?</string>
+    <string name="register_okBtn">registered</string>
+    <string name="register_Cancel">cancel</string>
+
+    <string name="register_MessageDone">registration success</string>
+    <string name="register_MessageFail">registration failed</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <array name="eventName">
+        <item>shopping</item>
+        <item>Dinner</item>
+        <item>working</item>
+        <item>School</item>
+        <item>Lunch</item>
+        <item>Other</item>
+    </array>
+    <string name="title_activity_maps">Map</string>
+    <string name="viewMap">View</string>
+    <string name="title_activity_view_maps">Map</string>
+    <string name="title_activity_ranging">RangingActivity</string>
+</resources>

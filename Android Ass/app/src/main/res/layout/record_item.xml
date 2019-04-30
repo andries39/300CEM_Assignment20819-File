@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp" >
+
+
+    <TextView
+        android:id="@+id/txtCurrentTime"
+        android:layout_width="76dp"
+        android:layout_height="43dp"
+
+        android:text=""
+        android:gravity="center_vertical"
+
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/txtnickName"
+        android:layout_width="76dp"
+        android:layout_height="43dp"
+        android:textSize="15sp"
+        android:layout_marginLeft="10dp"
+        android:text=""
+        android:gravity="center_vertical"
+        android:layout_toRightOf="@id/txtCurrentTime"/>
+
+    <TextView
+        android:id="@+id/txtEvent"
+        android:layout_width="76dp"
+        android:layout_height="43dp"
+        android:textSize="15sp"
+        android:layout_marginLeft="10dp"
+        android:text=""
+        android:gravity="center_vertical"
+        android:layout_toRightOf="@id/txtnickName"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/txtEvent"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/viewMapbtn"
+        android:text="@string/txt_view"
+
+
+        />
+
+</RelativeLayout>
